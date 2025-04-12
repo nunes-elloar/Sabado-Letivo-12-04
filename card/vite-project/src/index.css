@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+ background-color: var(--Cream);
+}
+:root{
+--Green-500: hsl(158, 36%, 37%);
+--Green-700: hsl(158, 42%, 18%);
+--Black: hsl(212, 21%, 14%);
+--Grey: hsl(228, 12%, 48%);
+--Cream: hsl(30, 38%, 92%);
+--White: hsl(0, 0%, 100%);
+}
+.imagem{
+  width: 12vw;
+  height: 800px;
+}
+.container{
+  background-color: var(--White);
+  justify-content: space-between;
+  display: flex;
+  width: 25vw;
+  border-radius: 20px;
+ 
+}
+.preco2{
+  text-decoration: line-through;
+}
+.preco{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 25px;
+}
+.perfume{
+  font-size: 20px;
+  
+}
